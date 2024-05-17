@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Задание по курсу:
+# https://stepik.org/course/73/info
+
 pow () {
     pownum=$1
     for (( i = 1; i < $2; i++ ))
@@ -8,18 +11,6 @@ pow () {
         done
     echo $pownum
 }
-
-
-# pow () {
-#     pownum=$1
-#     i=$2
-#     while [[ i -gt 1 ]]
-#         do
-#             let "pownum = $pownum * $1"
-#             let "i = $i - 1"
-#         done
-#     echo $pownum
-# }
 
 while [[ 1 == 1 ]]
 do

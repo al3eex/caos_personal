@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Задание по курсу:
+# https://stepik.org/course/73/info
+
 maxmin () {
     if [[ $2 -ge $1 ]]
     then
@@ -12,7 +15,6 @@ maxmin () {
     fi
 }
 
-# funciton begins
 gcd () {
     if [[ $1 == $2 ]]
     then
@@ -28,13 +30,13 @@ gcd () {
     fi
 }
 
-while [ 1 == 1 ] # script start
+while [ 1 == 1 ]
 do
     read a b
     if [[ $a -eq "" ]] && [[ $a -eq $b ]]
     then
         echo "bye";
-        break # script end
+        break
     else
         gcd $a $b
     fi
